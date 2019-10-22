@@ -1,4 +1,4 @@
-.header {
+header {
     text-align: center;
     font-size: 40px;
     line-height: 48px;
@@ -7,14 +7,46 @@
 .carousel-head {
     text-align: center;
 }
-.about {
+#about {
     text-align: center;
     border: 1px solid red;
-    padding: 20px;
+    padding-bottom: 15px;
     line-height: 20px;
-    margin: 15px;
-}
+    }
 
-.links {
+#links {
     text-align: center;
+    border: 1px solid red;
+    line-height: 30px;
+    font-size: 25px;
+    padding-bottom: 15px;
+    
 }
+#contact {
+    margin-bottom: 40px;
+    padding: 40px;
+}
+footer {
+    padding: 40px;
+    height: 20px;
+    text-align: center;
+    margin-top: 30px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  .text-boxes {
+      padding: 10px;
+  }
+ 
+  
